@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Nome": "Tiana",
+         "Universo": "Disney",
+         "Imagem": "https://m.media-amazon.com/images/M/MV5BMmRkODZlZTQtOWE3OS00ZmE1LWFiZDYtOGFjMjcwMmJjZTllXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "id": 2,
+        "Nome": "Naveen",
+        "Universo":"Disney",
+        "Imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc0cTfjpoRKFn5m8rqIxq7iRPWHGS9WFzf0w&s"
+    },
+    {
+        "id": 3,
+        "Nome":"Dr. Facilitier",
+        "Universo":"Disney",
+        "Imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ1f0UQXdqUFEwvYhzeIONGiKaPSoAIybNhw&s"
+    },
+    {
+        "id": 4,
+        "Nome":"Mama Odie",
+        "Universo":"Disney",
+        "Imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDQUjLVflG2IqAD4eU-O8EWUq5bu5CkYr4NQ&s0"
+    },
+    {
+        "id":5,
+        "Nome": "Ray",
+        "Universo":"Disney",
+        "Imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Ucsr6GDlZHg-Imk7i07MneM3a3vVlwa_DA&s"
+    },
+    {
+        "id":6,
+        "Nome":"Charlotte LaBouffer",
+        "Universo":"Disney",
+        "Imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkE92Zbon2zU-7niMEYGg9xn9V4txlsZfOw&s"
+    }
+]
