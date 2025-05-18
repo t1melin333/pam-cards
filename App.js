@@ -5,37 +5,31 @@ import Personagens from './data/personagens.json';
 
 export default function App() {
   return (
-    <View style= {styles.container}>
-    <ScrollView contentContainerStyle={styles.container}>
-    <View style={styles.row}>
-      {Personagens.map((Personagens)=> (
-       <CardPersonagem
-       key={Personagens.id}
-       nome={Personagens.Nome}
-       universo={Personagens.Universo}
-       imagem={Personagens.Imagem}
-       />
-      )
-      
-      )
-}
-    </View>
+    <ScrollView contentContainerStyle={styles.scrollContainer}>
+      <View style={styles.linha}>
+        {Personagens.map((personagem) => (
+          <CardPersonagem
+            key={personagem.id}
+            nome={personagem.Nome}
+            universo={personagem.Universo}
+            imagem={personagem.Imagem}
+          />
+        ))}
+      </View>
     </ScrollView>
-    </View>
-  )
+  );
+}
+
 
 const styles = StyleSheet.create({
-  container: {
+  scrollContainer: {
     paddingTop: 50,
     paddingBottom: 20,
-    alignItems: 'center',
+    paddingHorizontal: 10,
   },
   linha: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
     flexWrap: 'wrap',
-    marginBottom: 20,
-    width: '100%',
+    justifyContent: 'space-between',
   },
 });
-}

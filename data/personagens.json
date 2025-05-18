@@ -2,8 +2,9 @@
     {
         "id": 1,
         "Nome": "Tiana",
-         "Universo": "Disney",
-         "Imagem": "https://m.media-amazon.com/images/M/MV5BMmRkODZlZTQtOWE3OS00ZmE1LWFiZDYtOGFjMjcwMmJjZTllXkEyXkFqcGc@._V1_.jpg"
+
+        "Universo": "Disney",
+        "Imagem": "https://m.media-amazon.com/images/M/MV5BMmRkODZlZTQtOWE3OS00ZmE1LWFiZDYtOGFjMjcwMmJjZTllXkEyXkFqcGc@._V1_.jpg"
     },
     {
         "id": 2,

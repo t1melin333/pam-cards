@@ -12,24 +12,28 @@ const CardPersonagem = ({ nome, universo, imagem }) => {
 };
 
 const styles = StyleSheet.create({
-  card: {
-    backgroundColor: '#fff',
-    borderRadius: 16,
+ card: {
+  width: '48%', 
+  backgroundColor: '#f0eeee',
+  borderRadius: 16,
+  borderColor: '#1a1818',
+  borderWidth: 3,
+  padding: 16,
+  marginBottom: 16,
+  alignItems: 'center',
+  elevation: 5,
+  shadowColor: '#000',
+  shadowOpacity: 0.5,
+  shadowOffset: { width: 0, height: 2 },
+  shadowRadius: 8,
+},
+
+  imagem: {
+    width: 140,
+    height: 140,
+    borderRadius: 25,
     borderColor: '#1a1818',
     borderWidth: 3,
-    padding: 16,
-    margin: 10,
-    alignItems: 'center',
-    elevation: 5,
-    shadowColor: '#000',
-    shadowOpacity: 0.1,
-    shadowOffset: { width: 0, height: 2 },
-    shadowRadius: 8,
-  },
-  imagem: {
-    width: 120,
-    height: 120,
-    borderRadius: 25,
     marginBottom: 12,
   },
   nome: {
@@ -38,6 +42,7 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   universo: {
+    fontFamily: 'cursive',
     fontSize: 16,
     color: '#666',
   },
