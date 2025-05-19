@@ -35,5 +35,11 @@
         "Nome":"Charlotte LaBouffer",
         "Universo":"Disney",
         "Imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkE92Zbon2zU-7niMEYGg9xn9V4txlsZfOw&s"
+    },
+    {
+        "id": 7,
+        "Nome": "Louis",
+        "Universo": "Disney",
+        "Imagem": "https://i.pinimg.com/564x/2a/94/82/2a9482f843615668e170c682377a115d.jpg"
     }
 ]
